@@ -21,6 +21,7 @@ Ensemble learning: The ensemble model consists of four different versions of pre
 Transfer learning: Three publicly available datasets were used in model pretraining: ImageNet, PTB-XL ECG AF classification dataset, and PTB-XL ECG MI classification dataset. Transfer learning Model 1 was only pre-trained on ImageNet. Transfer learning Model 2 and Model 3 had both trained on ImageNet and PTB-XL ECG dataset. Model 2 was previously used to differentiate between AF and non-AF ECGs, whereas Model 3 was previously used to classify AMI, IMI, and the healthy control group. When these models were trained on ECG images from OHT cohort, they carried weights from their previous training.
 
 Both strategies were adapted in the two network training scripts. 
+Pre-training with PTB-XL ECG datasets scripts are available upon request. 
 
 ### 4. _Model evaluation_
 Model performances were evaluated for accuracy, precision, recall, specificity, the F1-score (the harmonic mean of precision and recall), and Area under the Receiver Operation Characteristic Curve. 
