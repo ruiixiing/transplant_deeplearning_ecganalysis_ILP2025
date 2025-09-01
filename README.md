@@ -6,6 +6,7 @@ This project aims to develop and evaluate a non-invasive tool using deep learnin
 
 ##  Study methods: 
 ### 1. _Study design and data source_ 
+We conducted a retrospective study to evaluate the abilities of different DL models in identifying ACR using 12-lead ECG images on a cohort of 40 patients who underwent a OHT between February 1, 2018, and March 10, 2020, at St Vincent’s Hospital, Sydney. The current study was approved by the St. Vincent’s Hospital Human Research Ethics Committee, Sydney (HREC/17/SVH/80). 
 
 ### 2. _ECG images and rejection grade collection_ 
 ECG acquired within the first six months of each recipient’s OHT were reviewed. ECGs were de-identified by cropping any patient information from the images. All endomyocardial biopsies and Cardiac Magnetic Resonance Imaging scans were performed either as part of routine rejection surveillance protocol or under the request of treating clinicians. The Python scripts written in Visual Studio Code: "_ECG Auto Cropping_", "_Transplant Dataset Preparation_" were used to automatically crop out the rhythm strip on the bottom of the 12-lead ECG image and resize the image to fit the input layer of ENB3 models. 
